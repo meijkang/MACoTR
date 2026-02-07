@@ -34,10 +34,13 @@ Conventional medical report generation often maps images directly to reports wit
 MACoTR addresses this by explicitly modeling intermediate reasoning and enforcing consistency between reasoning traces and final report statements.
 
 <div align="center">
-  <a href="assets/challenge.pdf"><strong>📄 Figure 1 (PDF)</strong></a>
+  <a href="assets/challenge.pdf">
+    <img src="assets/challenge.png" width="92%" alt="Figure 1 preview"/>
+  </a>
   <br>
-  <em>Medical report generation paradigm comparison: non-verifiable vs verifiable.</em>
+  <em>Medical report generation paradigm comparison: non-verifiable vs verifiable. (Click preview to open PDF)</em>
 </div>
+
 
 ---
 
@@ -64,10 +67,13 @@ Built on TRAC data, DAL progressively optimizes the target model with two comple
   Optimizes the causal linkage between intermediate reasoning and final report (GRPO-style reward optimization with structure and text-quality rewards).
 
 <div align="center">
-  <a href="assets/framework.pdf"><strong>📄 Figure 3 (PDF)</strong></a>
+  <a href="assets/framework.pdf">
+    <img src="assets/framework.png" width="92%" alt="Figure 3 preview"/>
+  </a>
   <br>
-  <em>Overview of MACoTR: TRAC for verifiable CoT mining and DAL for grounded causal optimization.</em>
+  <em>Overview of MACoTR: TRAC for verifiable CoT mining and DAL for grounded causal optimization. (Click preview to open PDF)</em>
 </div>
+
 
 ---
 
